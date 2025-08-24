@@ -125,7 +125,7 @@ const Menu = () => {
                   <p>Invite friends</p>
                 
                   <p>Help</p>
-                  <a href=" http://localhost:3000" style={{ textDecoration: "none", color: "red" }}>
+                  <a href=" https://finvero-frontend.onrender.com" style={{ textDecoration: "none", color: "red" }}>
                     Logout
                   </a>
                 </div>
@@ -166,7 +166,7 @@ const Menu = () => {
                   <p>Support</p>
                   <p>Invite friends</p>
                   <p>Help</p>
-                  <a href=" http://localhost:3000" style={{ textDecoration: "none", color: "red" }}>
+                  <a href=" https://finvero-frontend.onrender.com" style={{ textDecoration: "none", color: "red" }}>
                     Logout
                   </a>
                 </div>

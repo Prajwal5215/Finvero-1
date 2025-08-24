@@ -10,7 +10,7 @@ const Holdings = () => {
 const [allHoldings,setAllHoldings] = useState([]);    //then next step is to fetch data for that we first need to create a variable to store and then connect with ati to fetch
 
    useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings").then((res) => {
+    axios.get("https://finvero-1.onrender.com/allHoldings").then((res) => {
       // console.log(res.data);
       setAllHoldings(res.data);
     });

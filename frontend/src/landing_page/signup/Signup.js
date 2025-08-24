@@ -21,7 +21,7 @@ const Signup = () => {
 
   const handleLogin = async () => {
     try {
-      const res = await fetch("http://localhost:3002/api/login", {
+      const res = await fetch("https://finvero-1.onrender.com/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -37,7 +37,7 @@ const Signup = () => {
         const email = encodeURIComponent(data.user.email);
 
         //  Redirect to dashboard with user info in URL
-        window.location.href = ` http://localhost:3001?name=${name}&email=${email}`;
+        window.location.href = ` https://finvero-dashoard.onrender.com?name=${name}&email=${email}`;
       } else {
         alert(data.error || "Login failed");
       }
@@ -48,7 +48,7 @@ const Signup = () => {
   };
 
   const handleClose = () => {
-    window.location.href = 'http://localhost:3000';
+    window.location.href = 'https://finvero-frontend.onrender.com';
   };
 
   const styles = {
